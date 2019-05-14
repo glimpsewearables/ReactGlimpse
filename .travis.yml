@@ -1,0 +1,9 @@
+
+language: node_js
+node_js:
+  - '11'
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_AUTH_TOKEN
+  app: glimpse-web-app
