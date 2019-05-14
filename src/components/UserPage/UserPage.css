@@ -1,0 +1,178 @@
+#contentContainer{
+    color: grey;
+    margin-top: 130px;
+}
+#eventInformation{
+    margin-left: 20%;
+}
+.hiddenOnLoad{
+    opacity: 0.0;
+    transition-duration: 1s;
+}
+.notHiddenOnLoad{
+    opacity: 1.0;
+    transition-duration: 1s;
+}
+.hideMe{
+    opacity: 0.0;
+    transition-duration: 1s;
+}
+.deviceTitle{
+    text-align: center;
+}
+#featuredRecentEventCards{
+    display: flex;
+    width: 80%;
+    border-radius: 1em;
+    align-items: center;
+    margin-left: 10%;
+}
+.event-card-half{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.event-card-half:hover, .event-card:hover{
+    opacity: 0.9;
+}
+.event-ticket-button-recent{
+    background-color: black;
+    color: white;
+    border-radius: 5em;
+    cursor: pointer;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 170%;
+    text-align: center;
+    height: 8%;
+    transition-duration: .5s;
+}
+.event-location-recent{
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+    padding: 0.4em;
+}
+.event-ticket-button:hover, .event-ticket-button-recent:hover{
+    transform: translateY(-10px);
+    background-color: #2B2827
+}
+.outer-div-larger {
+    height: 100%;
+    width: 95%;
+    border-radius: 1em;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 5px #797979);
+}
+.outer-div {
+    height: 100%;
+    width: 80%;
+    border-radius: 1em;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 5px #797979);
+    margin-bottom: 2.5%;
+}
+.event-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.event-card-half:hover{
+    transform: scale(1.03)
+}
+.event-card:hover{
+    transform: scale(1.03)
+}  
+.event-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+  
+.event-info {
+    background-color: white;
+    height: 7em;
+    width: 100%;
+    color: #2B2827;
+}
+  
+.event-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 0.5;
+    padding: 0.5em;
+    position: absolute;
+    margin: -2em 0 0 0.4em;
+}
+  
+.event-location{
+    font-size: 1.1em;
+    line-height: 0.5;
+    display: block;
+    padding: 0.6em;
+}
+  
+.event-street {
+    padding: 0.8em;
+    font-size: 0.9em;
+    color: #7E7E7E;
+}
+  
+.event-price{
+    color: #2B2827;
+    margin: 0.5em;
+    position: absolute;
+    right: 0;
+}
+  
+.event-date{
+    font-size: 1.1em;
+    line-height: 0.5;
+    display: block;
+    padding: 0.6em;
+}
+  
+.gradient-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(#9198e500, #ffffff);
+    margin-top: -13em;
+}
+  
+@-moz-document url-prefix() {
+    .gradient-overlay {
+      margin: 1em 0 0 -40em;
+    }
+}
+  
+.event-info-table {
+    margin: -0.3em 1em 0 1em;
+    width: 38em;
+}
+  
+.event-ticket-button {
+    margin: -2em 0.5em 0 0;
+    padding: 0.2em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 5em;
+    cursor: pointer;
+    position: absolute;
+    right: 0;    
+    transition-duration: .5s;
+}
+  
+.icon-table-data{
+    width: 1em;
+}
+  
